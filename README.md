@@ -19,6 +19,7 @@ React puede ser utiliza desde el servidor.
 
 #### Componentes 
 
-React puede divir una aplicación grande en pequeñas.Son denominadas componentes a pequeñas partes que pueden encapsular código HTML, CSS y javaScript que lucen como etiquetas html para poder ser reutilizadas.
+React puede divir una aplicación grande en pequeñas partes.Son denominadas componentes a pequeñas partes que pueden encapsular código HTML, CSS y javaScript que lucen como etiquetas html para poder ser reutilizadas incluso en otro proyectos.
+
 
 

@@ -6,6 +6,7 @@
 > - HTML
 > - CSS
 > - JS => Sobre todo los conceptos básicos e intermedios (bucles, condicionales, métodos de objetos, ES6+, etc.)
+> - Node
 >
 > By Gustavo Angel Montoya Martínez
 

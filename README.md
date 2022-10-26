@@ -11,13 +11,13 @@
 
 ## ¿Qué es? 
 
-Es una biblioteca de javaScript que nos permite crear interfaz de usuarios, es muy utilizada lo que nos permite usar elementos que otras personas ya hicieron.
+Es una biblioteca de javaScript que nos permite crear interfaces de usuarios, es muy utilizada lo que nos permite usar elementos que otras personas ya hicieron.
 Tiene un buen rendimiento, es veloz ya que internamente utiliza *virtual dom*. 
-Nos permite crear vistas declarativas es decir lo que queremos mostrar en pantalla podemos verlo en el código.
-Con *virtual dom* podemos pintar en pantalla sin refrescar toda la pantalla y podemos divir una aplicación grande en **componentes**.
-React puede ser utiliza desde el servidor 2022
+Nos permite crear vistas declarativas, es decir. lo que queremos mostrar en pantalla podemos verlo en el código.
+Con *virtual dom* podemos pintar al usuario sin refrescar toda la pantalla y podemos divir una aplicación grande en **componentes**.
+React puede ser utiliza desde el servidor.
 
-#### componentes 
+#### Componentes 
 
 React puede divir una aplicación grande en pequeñas.Son denominadas componentes a pequeñas partes que pueden encapsular código HTML, CSS y javaScript que lucen como etiquetas html para poder ser reutilizadas.
 

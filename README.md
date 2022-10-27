@@ -22,5 +22,11 @@ React puede ser utiliza desde el servidor.
 
 React puede divir una aplicación grande en pequeñas partes.Son denominadas componentes a pequeñas partes que pueden encapsular código HTML, CSS y javaScript que lucen como etiquetas html para poder ser reutilizadas incluso en otro proyectos.
 
+## Crear proyecto de react
 
+> Necesitamos instalar NodeJS y desde NodeJS ejecutamos el siguiente comando:
+
+```
+npx create-react-app *name_app*
+```
 

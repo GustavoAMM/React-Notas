@@ -29,4 +29,25 @@ React puede divir una aplicación grande en pequeñas partes.Son denominadas com
 ```
 npx create-react-app *name_app*
 ```
+#### Comandos 
 
+Ejecutar servidor de desarrollo 
+
+```
+npm start
+```
+
+Preparar el código a producción
+```
+npm run build 
+```
+
+Hacer test de interfaces 
+```
+npm test
+```
+
+Sacar las configuraciones de create-react-app
+```
+npm run eject
+```

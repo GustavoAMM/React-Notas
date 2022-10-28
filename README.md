@@ -51,3 +51,7 @@ Sacar las configuraciones de create-react-app
 ```
 npm run eject
 ```
+
+## Componentes 
+
+![Componentes](componentes.jpg)

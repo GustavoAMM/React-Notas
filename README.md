@@ -107,3 +107,30 @@ root.render(<div>
 </div>)
 ```
 > Sí llamamos a los componentes mediante *{}* las funciones pueden empezar con minuscula 
+
+#### Ejemplo de componente (Self Closing Tags)
+
+Cerrar llaves en sí requiere que las funciones empiezen por mayúsuclas
+
+Ejemplo:
+
+
+```
+import React from "react";
+import ReactDom from "react-dom/client";
+
+const root = ReactDom.createRoot(document.getElementById("root"));
+
+function Saludar() {
+  return <h1>Este es componente</h1>;
+}
+
+root.render(<div>
+    <Saludar/>
+    <Saludar/>
+    <Saludar/>
+    <Saludar/>
+</div>);
+
+```
+

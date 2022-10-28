@@ -106,4 +106,4 @@ root.render(<div>
     {saludar()}
 </div>)
 ```
-> Sí re-utilizamos un llamamos a los componentes mediante *{}* las funciones pueden empezar con minuscula 
+> Sí llamamos a los componentes mediante *{}* las funciones pueden empezar con minuscula 

@@ -87,7 +87,7 @@ root.render(saludar());
 
 ```
 
-Ejemplo de re-utilización de un componente
+#### Ejemplo de re-utilización de un componente
 
 ```
 import React from "react";
@@ -132,5 +132,26 @@ root.render(<div>
     <Saludar/>
 </div>);
 
+```
+## JSX
+
+Gracias a JSX podemos combinar HTML con javaScript nativo lo que nos permite trabajar con logica y etiquetas.
+
+Ejemplo:
+
+```
+import React from "react";
+import ReactDom from "react-dom/client";
+
+const root = ReactDom.createRoot(document.getElementById("root"));
+
+function Saludar() {
+    const married = true
+  return <h1>{married ? 'Estoy casado' : 'No estoy casado'}</h1>
+}
+
+root.render(
+    <Saludar />
+);
 ```
 

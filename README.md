@@ -71,7 +71,7 @@ root.render(<h1>Hola Mundo</h1>);
 
 ```
 
-## Ejemplo de un componente básico
+## Ejemplo de un componente
 
 ```
 import React from "react";
@@ -85,4 +85,28 @@ function saludar() {
 
 root.render(saludar());
 
+```
+
+Ejemplo de re-utilización de un componente
+
+```
+import React from "react";
+import ReactDom from "react-dom/client";
+
+const root = ReactDom.createRoot(document.getElementById("root"));
+
+function saludar() {
+  return <h1>Este es componente</h1>;
+}
+
+root.render(<div>
+    {saludar()}
+    {saludar()}
+    {saludar()}
+    {saludar()}
+    {/* <Saludar/>
+    <Saludar/>
+    <Saludar/>
+    <Saludar/> */}
+</div>)
 ```

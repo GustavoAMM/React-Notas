@@ -155,3 +155,33 @@ root.render(
 );
 ```
 
+Muchas veces queremos muchos componentes el componente *root* va a ir creciendo esto nos lleva un div dentro de un div dentro de otro div, etc.
+
+Para evitar el ecceso de div's podemos utilizar **fragmant** que es un componente vacio.
+
+
+EJemplo:
+
+```
+import React from "react";
+import ReactDom from "react-dom/client";
+
+const root = ReactDom.createRoot(document.getElementById("root"));
+
+function Saludar() {
+  function add(x, y) {
+    return x + y;
+  }
+
+  return <h1>{add(10, 10)}</h1>;
+}
+
+root.render(
+  <>
+    <Saludar />
+    <Saludar />
+    <Saludar />
+  </>
+);
+
+```

@@ -104,9 +104,5 @@ root.render(<div>
     {saludar()}
     {saludar()}
     {saludar()}
-    {/* <Saludar/>
-    <Saludar/>
-    <Saludar/>
-    <Saludar/> */}
 </div>)
 ```

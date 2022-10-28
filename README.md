@@ -57,3 +57,16 @@ npm run eject
 ![Componentes](componentes.png)
 
 En React siempre empieza con un componente *root*.Siempre debe haber un componente que contenga el resto.
+
+## Hola mundo
+
+Ejemplo de hola mundo en react
+
+```
+import React from "react";
+import ReactDom from "react-dom/client";
+
+const root = ReactDom.createRoot(document.getElementById("root"));
+root.render(<h1>Hola Mundo</h1>);
+
+```

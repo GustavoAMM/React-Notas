@@ -55,3 +55,5 @@ npm run eject
 ## Componentes 
 
 ![Componentes](componentes.png)
+
+En React siempre empieza con un componente *root*.Siempre debe haber un componente que contenga el resto.

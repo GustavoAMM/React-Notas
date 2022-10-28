@@ -54,4 +54,4 @@ npm run eject
 
 ## Componentes 
 
-![Componentes](componentes.jpg)
+![Componentes](componentes.png)

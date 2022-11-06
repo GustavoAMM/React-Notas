@@ -185,3 +185,44 @@ root.render(
 );
 
 ```
+
+
+## Exportar 
+
+Para identificar a los componente de React es necesario poner el nombre con la primera letra en mayúsculas.
+
+exportar individual:
+
+```
+function Product() {
+  return (
+    <div>
+      <h1>Producto</h1>
+    </div>
+  );
+}
+
+```
+Para importar :
+
+ ```
+ import { Greeting} from "./Greeting";
+
+ ```
+
+ Para exportar por default : 
+ ```
+ function Product() {
+  return (
+    <div>
+      <h1>Producto</h1>
+    </div>
+  );
+}
+
+export default Product;
+ ```
+ Para importar default : 
+ ```
+ import Product from "./Product"
+ ```

@@ -225,4 +225,48 @@ export default Product;
  Para importar default : 
  ```
  import Product from "./Product"
- ```
+```
+
+## Props
+
+
+Los componentes son funciones en js, es decir, pueden recivir parametros.
+
+
+Ejemplo:
+
+```
+export function User({ name, amount, married, address }) {
+  return (
+    <div>
+      <h1>Name: {name}</h1>
+      <h2>💵: {amount}</h2>
+      <h2>Estado: {married ? "casado" : "Soltero"}</h2>
+      <h2>Addres:</h2>
+      <ul>
+        <li>city: {address.city}</li>
+        <li>street: {address.street}</li>
+      </ul>
+    </div>
+  );
+}
+```
+
+
+```
+root.render(
+  <>
+    <User
+      name="angel"
+      amount={123}
+      married={true}
+      point={[99, 12, 321]}
+      address={{ street: " 123", city: "new york" }}
+    />
+  </>
+);
+```
+
+> Nota: Se puede recibir mas de un parametro 
+
+Los datos que revibe puede ser cualquier dato de javaScript 

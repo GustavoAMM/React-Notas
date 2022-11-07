@@ -270,3 +270,36 @@ root.render(
 > Nota: Se puede recibir mas de un parametro 
 
 Los datos que revibe puede ser cualquier dato de javaScript 
+
+## EStilos
+
+Estilos en una línea para un componente:
+
+```
+export function TaskCard(){
+    return <div style={{background:'#000099',color:'#fff'}}>
+        <h1 style={{fontWeight:"bolder"}}>Mi primer tarea</h1>
+        <p style={{fontFamily:"cursive"}}>Tarea realizada</p>
+    </div>
+}
+```
+
+Se puede obtimizar y mas fácil de leer ya que los estilos son objetos en js.
+
+Ejemplo:
+
+```
+export function TaskCard() {
+
+  const divStyle = { background: "#000099", color: "#fff" };
+  const h1Style = { fontWeight: "bolder" };
+  const pStyle = { fontFamily: "cursive" };
+  
+  return (
+    <div style={divStyle}>
+      <h1 style={h1Style}>Mi primer tarea</h1>
+      <p style={pStyle}>Tarea realizada</p>
+    </div>
+  );
+}
+```

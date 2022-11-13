@@ -303,3 +303,24 @@ export function TaskCard() {
   );
 }
 ```
+
+## Tipos de componentes
+
+Hasta el momento hemos visto que para crear componentes se usan funciones pero tambien se pueden hacer usando clases.
+
+> Esto es un tema relacionado a POO 
+
+Ejemplo: 
+
+```
+import { Component } from "react";
+
+export class Saludar extends Component {
+  render() {
+    return <h1>Hello world</h1>;
+  }
+}
+
+```
+
+> Esta manera todavia esta soportada por React sin embargo es muy poco comun verla

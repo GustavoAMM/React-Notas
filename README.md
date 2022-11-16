@@ -194,7 +194,7 @@ root.render(
 
 Para identificar a los componente de React es necesario poner el nombre con la primera letra en mayúsculas.
 
-exportar individual:
+Exportar individual:
 
 ```
 function Product() {

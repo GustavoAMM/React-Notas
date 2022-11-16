@@ -24,9 +24,10 @@ React puede divir una aplicación grande en pequeñas partes.Son denominadas com
 
 ## Crear proyecto de react
 
-> Necesitamos instalar NodeJS y desde NodeJS ejecutamos el siguiente comando:
 
 Npm es una herramienta que se usa para instalar paquetes. Npx es una herramienta que se usa para ejecutar paquetes.
+
+> Necesitamos instalar NodeJS y desde NodeJS ejecutamos el siguiente comando:
 
 ```
 npx create-react-app *name_app*

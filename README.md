@@ -403,3 +403,24 @@ root.render(
 );
 
 ```
+
+## UseState
+
+ES un contenedor de valores y nos da una función para actualizar ese valor
+EJemplo:
+```
+function Contador() {
+  const [mjs, setMsj] = useState();
+
+  return (
+    <div>
+      <input onChange={(e)=>{
+        setMsj(e.target.value)
+      }}></input>
+      <button onClick={()=>{
+        alert("el mensaje es: "+ mjs)
+      }}>Save</button>
+    </div>
+  )
+}
+```

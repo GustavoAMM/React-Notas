@@ -350,4 +350,21 @@ EJemplo para capturar la entrada de un  input:
 />
 
 ```
+}
 
+## Fetch Api
+
+Pedir datos de manera online
+```
+export const Posts = () => {
+  return (
+    <button onClick={()=>{
+        fetch('https://jsonplaceholder.typicode.com/posts')
+        .then(Response=>Response.json())
+        .then(data=>console.log(data))
+        .catch(error =>console.log(error))
+    }}>Traer datos</button>
+  );
+};
+
+```

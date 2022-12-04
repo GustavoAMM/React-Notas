@@ -1,4 +1,4 @@
-#Notas del curso de React
+# Notas del curso de React
 
 > Martes 25 de Octubre del 2022
 >
@@ -14,11 +14,11 @@
 
 Es una biblioteca de javaScript que nos permite crear interfaces de usuarios, es muy utilizada lo que nos permite usar elementos que otras personas ya hicieron.
 Tiene un buen rendimiento, es veloz ya que internamente utiliza *virtual dom*. 
-Nos permite crear vistas declarativas, es decir. lo que queremos mostrar en pantalla podemos verlo en el código.
+Nos permite crear vistas declarativas, es decir, lo que queremos mostrar en pantalla podemos verlo en el código.
 Con *virtual dom* podemos pintar al usuario sin refrescar toda la pantalla y podemos divir una aplicación grande en **componentes**.
 React puede ser utiliza desde el servidor.
 
-#### Componentes 
+### Componentes 
 
 React puede divir una aplicación grande en pequeñas partes.Son denominadas componentes a pequeñas partes que pueden encapsular código HTML, CSS y javaScript que lucen como etiquetas html para poder ser reutilizadas incluso en otro proyectos.
 
@@ -32,25 +32,25 @@ Npm es una herramienta que se usa para instalar paquetes. Npx es una herramienta
 ```
 npx create-react-app *name_app*
 ```
-#### Comandos 
+### Comandos 
 
-Ejecutar servidor de desarrollo 
+Ejecutar servidor de desarrollo:
 
 ```
 npm start
 ```
 
-Preparar el código a producción
+Preparar el código a producción:
 ```
 npm run build 
 ```
 
-Hacer test de interfaces 
+Hacer test de interfaces:
 ```
 npm test
 ```
 
-Sacar las configuraciones de create-react-app
+Sacar las configuraciones de create-react-app:
 ```
 npm run eject
 ```
@@ -59,7 +59,7 @@ npm run eject
 
 ![Componentes](componentes.png)
 
-En React siempre empieza con un componente *root*.Siempre debe haber un componente que contenga el resto.
+En React siempre empieza con un componente *root*. Siempre debe haber un componente que contenga el resto.
 
 ## Hola mundo
 
@@ -113,7 +113,7 @@ root.render(<div>
 
 #### Ejemplo de componente (Self Closing Tags)
 
-Cerrar llaves en sí requiere que las funciones empiezen por mayúsuclas
+Cerrar llaves en sí requiere que las funciones empiezen por mayúsculas
 
 Ejemplo:
 
@@ -233,7 +233,7 @@ export default Product;
 ## Props
 
 
-Los componentes son funciones en js, es decir, pueden recivir parametros.
+Los componentes son funciones en javaScript, es decir, pueden recibir parámetros.
 
 
 Ejemplo:
@@ -270,9 +270,9 @@ root.render(
 );
 ```
 
-> Nota: Se puede recibir mas de un parametro 
+> Nota: Se puede recibir mas de un parámetro 
 
-Los datos que revibe puede ser cualquier dato de javaScript 
+Los datos que recibe puede ser cualquier dato de javaScript 
 
 ## Estilos
 
@@ -287,7 +287,7 @@ export function TaskCard(){
 }
 ```
 
-Se puede obtimizar y mas fácil de leer ya que los estilos son objetos en js.
+Se puede optimizar y mas fácil de leer ya que los estilos son objetos en javaScripts.
 
 Ejemplo:
 
@@ -326,11 +326,11 @@ export class Saludar extends Component {
 
 ```
 
-> Esta manera todavia esta soportada por React sin embargo es muy poco comun verla
+> Esta manera todavia esta soportada por React, sin embargo, es muy poco comun verla
 
 ## Event Handlers
 
-cada elemento tiene sus propios eventos por ejemplo onclick
+Cada elemento tiene sus propios eventos, por ejemplo: onclick.
 
 ```
 export function Boton({text}){
@@ -406,7 +406,8 @@ root.render(
 
 ## UseState
 
-ES un contenedor de valores y nos da una función para actualizar ese valor
+Es un contenedor de valores y nos da una función para actualizar ese valor.
+
 EJemplo:
 ```
 function Contador() {

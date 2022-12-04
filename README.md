@@ -274,7 +274,7 @@ root.render(
 
 Los datos que revibe puede ser cualquier dato de javaScript 
 
-## EStilos
+## Estilos
 
 Estilos en una línea para un componente:
 
@@ -327,3 +327,27 @@ export class Saludar extends Component {
 ```
 
 > Esta manera todavia esta soportada por React sin embargo es muy poco comun verla
+
+## Event Handlers
+
+cada elemento tiene sus propios eventos por ejemplo onclick
+
+```
+export function Boton({text}){
+    return <button onClick={function(){
+        console.log("Hola mundo")
+    }}>{text}</button>
+}
+```
+
+EJemplo para capturar la entrada de un  input: 
+```
+<input
+    id="hola"
+    onChange={function (e) {
+      console.log(e.target.value);
+    }}
+/>
+
+```
+

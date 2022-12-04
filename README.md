@@ -350,7 +350,6 @@ EJemplo para capturar la entrada de un  input:
 />
 
 ```
-}
 
 ## Fetch Api
 
@@ -366,5 +365,41 @@ export const Posts = () => {
     }}>Traer datos</button>
   );
 };
+
+```
+
+## Arrays
+
+```
+onst user = [
+  {
+    id: 1,
+    name: "angel",
+    image: "https://robohash.org/user1",
+  },
+  {
+    id: 2,
+    name: "Gus",
+    image: "https://robohash.org/user2",
+  },
+  {
+    id: 3,
+    name: "A",
+    image: "https://robohash.org/user3",
+  },
+];
+
+root.render(
+  <>
+    {user.map((user, index) => {
+      return (
+        <div key={index}>
+          <h1>{user.name}</h1>
+          <img src={user.image}/>
+        </div>
+      );
+    })}
+  </>
+);
 
 ```
